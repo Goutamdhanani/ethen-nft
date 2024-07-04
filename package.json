@@ -1,8 +1,11 @@
 {
+  "homepage": "goutamdhanani.github.io/ethen-nft",
   "name": "thirdweb-nft-marketplace",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predeploy": "npm run dev",
+    "deploy":"gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -32,6 +35,7 @@
     "eslint-config-next": "^14.2.3",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-react": "^7.34.1",
+    "gh-pages": "^6.1.1",
     "globals": "^15.1.0",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.3",
