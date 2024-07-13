@@ -1,1 +1,1 @@
-This is nft marketplace by Thirdweb api and sdk
+This is nft marketplace by goutam kumar with help of third web api.
